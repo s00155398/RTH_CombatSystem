@@ -7,3 +7,5 @@ In this project my aim was to recreate the popular combat system that is feature
 # Gameplay
 
 Currently the gameplay includes ordering the player character to move or to attack the enemy NPC. If the PC is ordered to attack by left clicking on the Enemy NPC, the PC will then make its way to the Enemy NPC and once it is in range, it will execute its attack. Once the attack is executed, the random number will be generated within the range of 1 to 20. This number will then have the attackers attack stat added to it and then it will be compared to the defenders defence skill. If the number generated with the attack stat is higher  than that of the defence skill then the attack will land and reduce the health of the defender, if not then the attack will simply miss and nothing will occur.
+
+![](imgs/RTH.png) ![](imgs/RTH_Hit.png) ![](imgs/RTH_Miss.png)
