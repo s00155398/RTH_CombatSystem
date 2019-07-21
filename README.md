@@ -29,4 +29,4 @@ Add animation for the Enemy NPC.
 Add Ai function to the Enemy NPC so that it can attack the player character on sight.
 Add ranged attacks, IE spells or bows for increased variety.
 
-This project was created using UE4 using both visual scripting (blueprint) and programming (C++).
+This project was created using UE4 using both visual scripting (blueprint) and code (C++).
