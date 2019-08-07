@@ -31,6 +31,10 @@ void ACharacter_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (HealthStat <= 0)
+	{
+		IsDead = true;
+	}
 }
 
 // Called to bind functionality to input

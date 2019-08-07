@@ -34,6 +34,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 		int32 HealthStat;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
+		bool IsDead = false;
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
