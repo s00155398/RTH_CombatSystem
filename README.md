@@ -16,7 +16,9 @@ The player character contains an isometric camera and a pawn character to contro
 
 
 # NPC : Enemy
+
 ![](imgs/NPCAttack.png)
+
 This characters sole purpose is to attack the Player Character on sight. To accomplish this, it contains an AI perception system to allow it to percieve and identify its surroundings. It targets the player character specifically and once it has detected the PC it will then pursue and attack until it or the PC is dead. Both the PC and the Enemy NPC are children of the base character class, as such they will inherit functions and variables from this parent class such as Health, Attack Stat, Defence Stat and the Attack function. In both Characters the Attack function is called through using the Anim Notify function available within each of their respective Animation Blueprints. The Enemy NPC currently has full animation including Idle, Running, Attacking and a death animation State.
 
 ![](imgs/NPCDead.png) 
