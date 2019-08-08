@@ -23,7 +23,6 @@ ACharacter_Base::ACharacter_Base()
 void ACharacter_Base::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

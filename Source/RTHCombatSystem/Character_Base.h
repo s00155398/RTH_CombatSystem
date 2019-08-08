@@ -37,6 +37,12 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
 		bool IsDead = false;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
+		bool ReachedTarget = false;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Stats")
+		float AcceptableDistance;
+
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
